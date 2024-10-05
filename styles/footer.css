@@ -1,0 +1,17 @@
+.contacts{
+  background-color: linen;
+  padding: 20px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+}
+
+.social-links img{
+  width: 30px;
+  height: 30px;
+}

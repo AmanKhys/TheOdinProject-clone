@@ -1,0 +1,51 @@
+.program-structure{
+  background-color: lightgreen;
+  padding: 50px;
+}
+.structure-grid{
+  background-color: lightpink;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 300px;
+}
+
+.curriculum{
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.course-card{
+  display: grid;
+  grid-template-columns: 200px;
+}
+
+.success-stories{
+  background-color: lightgreen;
+  padding: 50px;
+}
+.success-grid{
+  display: grid;
+  grid-template-columns: 576px;
+}
+.success-card{
+  display: grid;
+  grid-template-columns: 96px  480px;
+}
+.success-profile{
+  width:50px;
+}
+.success-card img{
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.foot-links{
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,21 @@
+header {
+  background-color: lightblue;
+  display: flex;
+  margin: 10px 20px;
+}
+
+.odin-icon svg{
+  width: 18px;
+  height: 18px;
+}
+.navbar{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto;
+  color: #6B7280;
+}
+.navbar svg {
+  height: 24px;
+  color: #9CA3AF;
+}
