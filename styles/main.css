@@ -5,7 +5,8 @@
   background-color: lightgreen;
   padding: 80px 32px;
   text-align: center;
-  
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .program-intro{
   width: 768px;
@@ -22,6 +23,7 @@
   background-color: lightpink;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  max-width: 1024px;
 }
 
 .card{
@@ -97,10 +99,12 @@
   color: #1F2937;
 }
 .success-grid{
-  display: grid;
-  grid-template-columns: 576px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1216px;
 }
 .success-card{
+  max-width: 608px;
   display: grid;
   grid-template-columns: 96px  480px;
   padding: 0 0 36px;
