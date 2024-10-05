@@ -35,92 +35,106 @@
 
   <main>
     <div class="intro">
-      <h1>Your Career in Web Development Starts Here</h1>
-      <p>Our full stack curriculum is free and supported by a passionate open source community.</p>
+      <h1>Your <span>Career in Web Development</span> Starts Here</h1>
+      <p>Our full stack curriculum is free and supported by a <br> passionate open source community.</p>
       <button>View Full Curriculum</button>
     </div>
     <div class="background">
       <img src="images/background/background.svg" alt="background">
     </div>
     <div class="program-structure">
-      <h2>How it works</h2>
-      <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only the
-        best resources to supplement your learning and present them in a logical order.</p>
+      <div class="program-intro">
+        <h2>How it works</h2>
+        <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only
+          the
+          best resources to supplement your learning and present them in a logical order.
+        </p>
+
+      </div>
       <div class="structure-grid">
         <div class="card">
           <div><img src="images/icons/learn.svg" alt="learn-icon"></div>
-          <div>Learn</div>
-          <div>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</div>
+          <div class="card-title">Learn</div>
+          <div class="card-description">Learn from a curriculum with the best curated online tutorials, blogs, and
+            courses.</div>
         </div>
         <div class="card">
           <div><img src="images/icons/build.svg" alt="build"></div>
-          <div>Build</div>
-          <div>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and
+          <div class="card-title">Build</div>
+          <div class="card-description">Build dozens of portfolio-worthy projects along the way, from simple scripts to
+            full programs and
             deployed websites.</div>
         </div>
         <div class="card">
           <div><img src="images/icons/connect.svg" alt="connect"></div>
-          <div>Connect</div>
-          <div>You're not alone. Learn and get help from our friendly community of beginner and experienced developers.
+          <div class="card-title">Connect</div>
+          <div class="card-description">You're not alone. Learn and get help from our friendly community of beginner and
+            experienced developers.
           </div>
         </div>
       </div>
     </div>
 
     <div class="curriculum">
-      <div class="course-card">
-        <div><img src="images/icons/html-css.svg" alt="html-css-beginner"></div>
-        <p>Intermediate HTML and CSS</p>
-      </div>
-      <div class="course-card">
-        <div><img src="images/icons/html-css.svg" alt="html-css-advanced"></div>
-        <div>
-          <p>Advance HTML and CSS</p>
+      <h2>Learn everything you need to know</h2>
+      <div class="course-cards">
+        <div class="course-card">
+          <div><img src="images/icons/html-css.svg" alt="html-css-beginner"></div>
+          <p>Intermediate HTML and CSS</p>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/html-css.svg" alt="html-css-advanced"></div>
+          <div>
+            <p>Advance HTML and CSS</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/database.svg" alt="database"></div>
+          <div>
+            <p>Databases</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/javascript.svg" alt="javascript"></div>
+          <div>
+            <p>Javascript</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/react.svg" alt="react"></div>
+          <div>
+            <p>React</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/nodejs.svg" alt="nodejs"></div>
+          <div>
+            <p>NodeJS</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/rails.svg" alt="rails"></div>
+          <div>
+            <p>Ruby on Rails</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/ruby.svg" alt="ruby"></div>
+          <div>
+            <p>Ruby</p>
+          </div>
+        </div>
+        <div class="course-card">
+          <div><img src="images/icons/getting-hired.svg" alt="getting-hired"></div>
+          <div>
+            <p>Getting Hired</p>
+          </div>
         </div>
       </div>
-      <div class="course-card">
-        <div><img src="images/icons/database.svg" alt="database"></div>
-        <div>
-          <p>Databases</p>
-        </div>
+
+      <div class="btn">
+        <button>Explore Curriculums</button>
       </div>
-      <div class="course-card">
-        <div><img src="images/icons/javascript.svg" alt="javascript"></div>
-        <div>
-          <p>Javascript</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div><img src="images/icons/react.svg" alt="react"></div>
-        <div>
-          <p>React</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div><img src="images/icons/nodejs.svg" alt="nodejs"></div>
-        <div>
-          <p>NodeJS</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div><img src="images/icons/rails.svg" alt="rails"></div>
-        <div>
-          <p>Ruby on Rails</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div><img src="images/icons/ruby.svg" alt="ruby"></div>
-        <div>
-          <p>Ruby</p>
-        </div>
-      </div>
-      <div class="course-card">
-        <div><img src="images/icons/getting-hired.svg" alt="getting-hired"></div>
-        <div>
-          <p>Getting Hired</p>
-        </div>
-      </div>
-      <button>Explore Curriculums</button>
     </div>
 
     <div class="success-stories">
@@ -129,17 +143,18 @@
         <div class="success-card">
           <div class="success-profile"><img src="images/profile-pictures/1.jpg" alt="1"></div>
           <div class="story-details">
-            <div class="profile-name">Rob Pando</div>
-            <div class="story">TOP was a perfect match for my learning style. Not walking me through an entire project
-              but actually forcing me to figure it out on my own, by pointing me...</div>
+            <a class="profile-name">Rob Pando</a>
+            <p class="story">TOP was a perfect match for my learning style. Not walking me through an entire project
+              but actually forcing me to figure it out on my own, by pointing me...</p>
           </div>
         </div>
 
         <div class="success-card">
           <div class="success-profile"><img src="images/profile-pictures/2.jpg" alt="2"></div>
           <div class="story-details">
-            <h2 class="profile-name">Cody Loyd</h2>
-            <p>Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a
+            <a class="profile-name">Cody Loyd</a>
+            <p class="story">Before I started the Odin Project I had literally ZERO programming experience. After almost
+              exactly a
               year of working through the program, I was offered a job as a front...</p>
           </div>
         </div>
@@ -148,40 +163,44 @@
         <div class="success-card">
           <div class="success-profile"><img src="images/profile-pictures/3.jpg" alt="3"></div>
           <div class="story-details">
-            <div class="profile-name">Andrej Dragojević</div>
-            <div>
-              <p>An incredible self-paced curriculum that consists of the best resources for learning programming on the
-                web! It was an invaluable resource on my path to a becoming a software developer.
-                <br>...</p>
-            </div>
+            <a class="profile-name">Andrej Dragojević</a>
+            <p class="story">An incredible self-paced curriculum that consists of the best resources for learning
+              programming on the
+              web! It was an invaluable resource on my path to a becoming a software developer.
+              <br>...</p>
           </div>
         </div>
 
         <div class="success-card">
           <div class="success-profile"><img src="images/profile-pictures/4.jpg" alt="4"></div>
           <div class="story-details">
-            <div class="profile-name">Skip Gibson</div>
-            <div>
-              <p>Before I found The Odin Project I had very little direction with my learning, jumping from topic to
-                topic then trying to piece things together as I went.
-                <br>Having this...
+            <a class="profile-name">Skip Gibson</a>
+            <p class="story">Before I found The Odin Project I had very little direction with my learning, jumping from
+              topic to
+              topic then trying to piece things together as I went.
+              <br>Having this...
 
-              </p>
-            </div>
+            </p>
           </div>
         </div>
       </div>
-      <a href="">Read more success stories</a>
+      <a class="readmore" href="">Read more success stories</a>
+
+
+      <!-- support-us is containerized with success-stories -->
+      <div class="support-us">
+        <h2>Support Us!</h2>
+        <p>The Odin Project is funded by the community. Join us in empowering learners around the globe by supporting
+          The
+          Odin Project!</p>
+        <div class="support-btns">
+          <button class="learnmore">Learn more</button>
+          <button class="donate">Donate Now <img src="images/icons/right-arrow.svg" alt=""></button>
+        </div>
+      </div>
     </div>
 
 
-    <div class="support-us">
-      <h2>Support Us</h2>
-      <p>The Odin Project is funded by the community. Join us in empowering learners around the globe by supporting The
-        Odin Project!</p>
-      <button>Learn more</button>
-      <button>Donate Now</button>
-    </div>
   </main>
 
 

@@ -15,7 +15,38 @@ header {
   margin-left: auto;
   color: #6B7280;
 }
-.navbar svg {
+.navbar img{
   height: 24px;
-  color: #9CA3AF;
+  width: 24px;
+  filter: invert(40%) sepia(12%) saturate(15%) hue-rotate(185deg);
+
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 32px 15px;
+}
+
+.intro h1{
+  font-size: 60px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1;
+  width: 896px;
+}
+.intro span{
+  font-size: 60px;
+  color: rgb(169, 121, 43)
+}
+
+.intro p{
+  width: 576px;
+  height: 56px;
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+  font-weight: 500;
 }
