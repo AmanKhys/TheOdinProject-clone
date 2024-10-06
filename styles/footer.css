@@ -1,17 +1,58 @@
-.contacts{
-  background-color: linen;
-  padding: 20px;
+footer{
+  padding: 48px 32px 32px;
+  background-color: rgb(243, 244, 246);
+}
+.foot-links{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+footer ul li{
+  padding: 0;
+  margin: 12px 0 0;
+  cursor: pointer;
+}
+.copyrights{
+  color: #4B5563;
+  font-size: 12px;
+  padding: 32px 0 0;
+  margin: 92px 0 0;
+  border-width: .8px 0 0;
+  border-color: #4B5563;
 }
 
 .social-links{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 200px;
   height: 70px;
 }
 
+
+.group-links-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.group-links{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.group-links .list{
+  margin-left: 25px;
+}
+.group-links img{
+  cursor: pointer;
+}
 .social-links img{
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
