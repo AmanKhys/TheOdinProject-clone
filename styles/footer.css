@@ -45,7 +45,7 @@ footer ul li{
   grid-template-columns: repeat(2, auto);
 }
 .group-links .list{
-  margin-left: 25px;
+  margin-right: 25px;
 }
 .group-links img{
   cursor: pointer;

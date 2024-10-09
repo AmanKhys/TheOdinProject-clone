@@ -116,5 +116,14 @@ header {
 
 }
 
-@media(min-width: 641px) and (max-width: 767px) {
+@media(min-width: 641px) and (max-width: 868px) {
+  .odin-full{
+    display: none;
+  }
+  .odin-head{
+    display: block;
+  }
+  .navbar{
+    column-gap: 20px;
+  }
 }
