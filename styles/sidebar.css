@@ -1,0 +1,48 @@
+#sidebar{
+  padding: 12px 0 16px 0;
+  max-width: 320px;
+}
+.path-odin{
+  height: 48px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+.path-odin:hover{
+  color: black;
+}
+.path-odin img{
+  height: 100%;
+}
+
+.path-all-links-container{
+ padding: 8px 0 0 8px;
+}
+.path-container{
+  display: flex;
+  height: 40px;
+  padding: 8px;
+  margin: 0 8px 0 0;
+  font-size: 16px;
+  color: #4B5563;
+  cursor: pointer;
+  
+}
+.path-container:hover{
+  color: black;
+}
+a.path-container {
+  text-decoration: none;
+}
+.path-container img{
+  height: 24px;
+  width: 24px;
+  display: block;
+  margin: 0 16px 0 0;
+  fill: #9CA3AF;
+  stroke: #9CA3AF;
+}
+
+.sidebar-hr{
+  font-weight: 200;
+  color: #9CA3AF;
+}

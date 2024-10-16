@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Odin Project - Clone</title>
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <script defer src="js/bootstrap.js"></script>
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,14 +26,15 @@
       <img class="odin-full" src="images/icons/odin.svg" alt="odin">
     </div>
     <div class="navbar">
-      <div>All Paths</div>
-      <div>About</div>
-      <div>Community</div>
-      <div>Support us</div>
-      <div>Sign in</div>
+      <a href="https://www.theodinproject.com/paths">All Paths</a>
+      <a href="https://www.theodinproject.com/about">About</a>
+      <a href="https://discord.com/invite/fbFCkYabZB">Community</a>
+      <a href="https://www.theodinproject.com/support_us">Support us</a>
+      <a href="https://www.theodinproject.com/sign_up">Sign in</a>
       <div><img src="images/icons/light.svg" alt="light"></div>
       <button class="get-started">Get Started</button>
-      <button class="hamburger-menu"><img src="images/icons/hamburger-menu.svg" alt="hamburger-menu"></button>
+      <button class="hamburger-menu" data-bs-toggle="offcanvas" data-bs-target="#sidebar"><img
+          src="images/icons/hamburger-menu.svg" alt="hamburger-menu"></button>
     </div>
   </header>
 
@@ -265,6 +269,54 @@
     </div>
     <div class="copyrights">© 2024 The Odin Project. All rights reserved.</div>
   </footer>
+
+  <!-- offcanvas -->
+  <div id="sidebar" class="offcanvas offcanvas-start" tabindex="-1">
+    <a class="path-odin" href="/">
+      <img src="images/icons/odin.svg" alt="odin">
+    </a>
+    <div class="path-all-links-container">
+      <a class="path-container" href="/">
+        <img src="images/icons/home.svg" alt="home">
+        Home
+      </a>
+      <a class="path-container"href="https://www.theodinproject.com/paths">
+        <img src="images/icons/all-paths.svg" alt="all-paths">
+        All Path
+      </a>
+      <a class="path-container" href="https://www.theodinproject.com/about">
+        <img src="images/icons/about.svg" alt="about">
+        About
+      </a>
+      <a class="path-container" href="https://www.theodinproject.com/support_us">
+        <img src="images/icons/support-us.svg" alt="support-us">
+        Support Us
+      </a>
+      <a class="path-container" href="https://discord.com/invite/fbFCkYabZB">
+        <img src="images/icons/community.svg" alt="community">
+        Community
+      </a>
+
+    </div>
+
+    <hr class="sidebar-hr">
+
+    <div class="path-all-links-container">
+      <a class="path-container"  href="https://www.theodinproject.com/sign_up">
+        <img src="images/icons/get-started.svg" alt="get-started">
+        Get started
+      </a>
+      <div class="path-container">
+        <img src="images/icons/light.svg" alt="light">
+        Light mode
+      </div>
+      <a class="path-container" href="https://www.theodinproject.com/sign_up">
+        <img src="images/icons/sign-in.svg" alt="sign-in">
+        Sign in
+      </a>
+    </div>
+
+  </div>
 </body>
 
 </html>

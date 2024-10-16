@@ -14,7 +14,9 @@ body{
 img{
   display: block;
 }
-
+a{
+  color: #4f5563;
+}
 button{
   display: flex;
   justify-content: center;

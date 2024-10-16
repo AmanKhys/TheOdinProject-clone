@@ -1,0 +1,12 @@
+{
+  "css.styleSheets": [
+    
+
+    "**/*.css",
+    "styles/*.css",
+    "src/**/*.css",
+     "*.css",
+      "css/*.css",
+  ],
+  "css.autoValidation": "Always"
+}
