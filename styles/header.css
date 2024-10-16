@@ -5,6 +5,7 @@ header {
   max-width: 1216px;
   height: 64px;
   margin: auto;
+  padding: 0 20px;
 
 }
 
@@ -100,7 +101,7 @@ header {
   width: 100%;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 680px) {
   header {
     padding: 8px 16px;
   }
@@ -133,7 +134,7 @@ header {
 
 }
 
-@media(min-width: 641px) and (max-width: 868px) {
+@media(min-width: 681px) and (max-width: 868px) {
   .odin-full {
     display: none;
   }
