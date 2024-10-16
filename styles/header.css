@@ -4,14 +4,16 @@ header {
   justify-content: space-between;
   max-width: 1216px;
   height: 64px;
+  margin: auto;
 
 }
 
-.odin-icon img{
+.odin-icon img {
   height: 48px;
   cursor: pointer;
 }
-.navbar{
+
+.navbar {
   height: 48px;
   display: flex;
   gap: 30px;
@@ -19,16 +21,19 @@ header {
   margin-left: auto;
   color: #6B7280;
 }
-.navbar img{
+
+.navbar img {
   height: 24px;
   width: 24px;
   filter: invert(40%) sepia(12%) saturate(15%) hue-rotate(185deg);
 }
-.navbar button.get-started{
+
+.navbar button.get-started {
   padding: 4px 4px 0;
   cursor: pointer;
 }
-.navbar button.get-started{
+
+.navbar button.get-started {
   width: auto;
   background-color: #0F766E;
   color: white;
@@ -38,7 +43,7 @@ header {
 }
 
 /* intro-section */
-.intro{
+.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,37 +51,40 @@ header {
   padding: 40px 16px 16px 16px;
 }
 
-.intro h1{
+.intro h1 {
   font-size: 60px;
   text-align: center;
   font-weight: 500;
   line-height: 1;
   max-width: 896px;
 }
-.intro span{
+
+.intro span {
   font-size: 60px;
   color: rgb(169, 121, 43)
 }
 
 
-.hamburger-menu{
+.hamburger-menu {
   height: 40px;
   width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hamburger-menu img{
+
+.hamburger-menu img {
   height: 24px;
   width: 24px;
 }
 
 
 .odin-head,
-.hamburger-menu{
+.hamburger-menu {
   display: none;
 }
-.intro p{
+
+.intro p {
   width: 100%;
   font-size: 20px;
   color: gray;
@@ -84,47 +92,53 @@ header {
   text-align: center;
 }
 
-.intro-image{
+.intro-image {
   display: block;
   width: 100%;
 }
+
 @media(max-width: 640px) {
-  header{
+  header {
     padding: 8px 16px;
   }
+
   .odin-head,
-  .hamburger-menu{
-    display:flex;
+  .hamburger-menu {
+    display: flex;
   }
+
   .odin-full,
   .navbar div,
-  button.get-started{
+  button.get-started {
     display: none;
   }
 
   .intro h1,
-  .intro span{
+  .intro span {
     font-size: 36px;
   }
 
-  .intro h1{
+  .intro h1 {
     padding: 0 0 24px 0;
     font-weight: 200px;
   }
-  .intro p{
+
+  .intro p {
     font-size: 16px;
   }
 
 }
 
 @media(min-width: 641px) and (max-width: 868px) {
-  .odin-full{
+  .odin-full {
     display: none;
   }
-  .odin-head{
+
+  .odin-head {
     display: block;
   }
-  .navbar{
+
+  .navbar {
     column-gap: 20px;
   }
 }
